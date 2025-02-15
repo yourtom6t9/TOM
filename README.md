@@ -1,10 +1,10 @@
 <img src="https://i.imgur.com/BtdKJaL.jpeg" alt="banner">
-<h1 align="center"><img src="https://i.imgur.com/3F8GRUx.jpeg" width="22px"> ArYAN BOT</h1
+<h1 align="center"><img src="https://i.imgur.com/3F8GRUx.jpeg" width="22px"> R4N4 BOT</h1
 
 
 ## C3C FBstate
 
-cope Paste Chrome this link and download it 🙂
+copy Paste Chrome this link and download it 🙂
 
 ```bash
 https://drive.google.com/file/d/1JccCr5N_5_QrO71LS5bp0lJ5BUA-W4oY/view?usp=drivesdk
