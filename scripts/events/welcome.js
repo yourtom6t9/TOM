@@ -1,7 +1,7 @@
 const { getTime, drive } = global.utils;
 if (!global.temp.welcomeEvent)
 	global.temp.welcomeEvent = {};
-
+ 
 module.exports = {
 	config: {
 		name: "welcome",
@@ -9,7 +9,7 @@ module.exports = {
 		author: "NTKhang",
 		category: "events"
 	},
-
+ 
 	langs: {
 		vi: {
 			session1: "sáng",
@@ -22,17 +22,17 @@ module.exports = {
 			defaultWelcomeMessage: "Xin chào {userName}.\nChào mừng bạn đến với {boxName}.\nChúc bạn có buổi {session} vui vẻ!"
 		},
 		en: {
-			session1: "morning",
-			session2: "noon",
-			session3: "afternoon",
-			session4: "evening",
-			welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
-			multiple1: "you",
-			multiple2: "you guys",
-			defaultWelcomeMessage: `Hello {userName}.\nWelcome {multiple} to the chat group: {boxName}\nHave a nice {session} 😊`
+			session1: "𝗺𝗼𝗿𝗻𝗶𝗻𝗴",
+			session2: "𝗻𝗼𝗼𝗻",
+			session3: "𝗮𝗳𝘁𝗲𝗿𝗻𝗼𝗼𝗻",
+			session4: "𝗲𝘃𝗲𝗻𝗶𝗻𝗴",
+			welcomeMessage: "━━━━━━━━━━━━━━━━━━\n\n‎  ┌───── •✧• ─────┐\n‎      👑 𝗥𝗔𝗡𝗔 𝗕𝗢𝗧 👑 \n‎  └───── •✧• ─────┘\n𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝙵𝚄𝙻𝙻\n\n━━━━━━━━━━━━━━━━━━\n\n➛𝙱𝙾𝚃 𝙰𝙳𝙼𝙸𝙽: 𝙼𝙾𝙷𝙰𝙼𝙼𝙰𝙳 𝚁𝙰𝙽𝙰\n\n➛𝙵𝙱: https://www.facebook.com/XAICO.RANA\n\n➛𝚆𝙿: wa.me/+8801988686406\n\n➛𝚃𝙶: t.me/KING_RANA_404\n\n━━━━━━━━━━━━━━━━━━ ",
+			multiple1: "𝘆𝗼𝘂",
+			multiple2: "𝘆𝗼𝘂 𝗴𝘂𝘆𝘀",
+			defaultWelcomeMessage: `‎┏━━━━[𝗪𝗘𝗟𝗖𝗢𝗠𝗘]━━━━┓\n 𝙰𝚂𝚂𝙰𝙻𝙰𝙼𝚄𝚆𝙰𝙻𝙰𝙸𝙺𝚄𝙼 \𝚗‎┌───── •✧• ─────┐\n {userName}  \n‎└───── •✧• ─────┘ \n𝚆𝙴𝙻𝙻𝙲𝙾𝙼𝙴  \n𝚆𝙴𝙻𝙻𝙲𝙾𝙼𝙴  {multiple} 𝚃𝙾 𝚃𝙷𝙴 𝙲𝙷𝙰𝚃 𝙱𝙾𝚇: {boxName}\n𝙷𝙰𝚅𝙴 𝙰 𝙽𝙸𝙲𝙴  {session}♲︎︎︎ 😉\n┗━━━━[𝗥𝗔𝗡𝗔  𝗕𝗢𝗧]━━━━┛`
 		}
 	},
-
+ 
 	onStart: async ({ threadsData, message, event, api, getLang }) => {
 		if (event.logMessageType == "log:subscribe")
 			return async function () {
@@ -53,12 +53,12 @@ module.exports = {
 						joinTimeout: null,
 						dataAddedParticipants: []
 					};
-
+ 
 				// push new member to array
 				global.temp.welcomeEvent[threadID].dataAddedParticipants.push(...dataAddedParticipants);
 				// if timeout is set, clear it
 				clearTimeout(global.temp.welcomeEvent[threadID].joinTimeout);
-
+ 
 				// set new timeout
 				global.temp.welcomeEvent[threadID].joinTimeout = setTimeout(async function () {
 					const threadData = await threadsData.get(threadID);
@@ -70,10 +70,10 @@ module.exports = {
 					const userName = [],
 						mentions = [];
 					let multiple = false;
-
+ 
 					if (dataAddedParticipants.length > 1)
 						multiple = true;
-
+ 
 					for (const user of dataAddedParticipants) {
 						if (dataBanned.some((item) => item.id == user.userFbId))
 							continue;
@@ -111,9 +111,9 @@ module.exports = {
 										? getLang("session3")
 										: getLang("session4")
 						);
-
+ 
 					form.body = welcomeMessage;
-
+ 
 					if (threadData.data.welcomeAttachment) {
 						const files = threadData.data.welcomeAttachment;
 						const attachments = files.reduce((acc, file) => {
@@ -130,3 +130,4 @@ module.exports = {
 			};
 	}
 };
+ 
