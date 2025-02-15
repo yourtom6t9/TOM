@@ -1,3 +1,4 @@
+
 ## **STEP INSTALL GOAT BOT V2**
 > This is a guide to install Goat Bot V2 on mobile devices (Android, iOS) and PC (Windows, MacOS, Linux) with replit.com
 
