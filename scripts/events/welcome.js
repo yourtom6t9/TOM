@@ -22,14 +22,14 @@ module.exports = {
 			defaultWelcomeMessage: "Xin chào {userName}.\nChào mừng bạn đến với {boxName}.\nChúc bạn có buổi {session} vui vẻ!"
 		},
 		en: {
-			session1: "𝗺𝗼𝗿𝗻𝗶𝗻𝗴",
-			session2: "𝗻𝗼𝗼𝗻",
-			session3: "𝗮𝗳𝘁𝗲𝗿𝗻𝗼𝗼𝗻",
-			session4: "𝗲𝘃𝗲𝗻𝗶𝗻𝗴",
+			session1: "𝙼𝚘𝚛𝚗𝚒𝚗𝚐",
+			session2: "𝙽𝚘𝚘𝚗",
+			session3: "𝙰𝚏𝚝𝚎𝚛𝚗𝚘𝚘𝚗",
+			session4: "𝙴𝚟𝚎𝚗𝚒𝚗𝚐",
 			welcomeMessage: "━━━━━━━━━━━━━━━━━━\n\n‎  ┌───── •✧• ─────┐\n‎      👑 𝗥𝗔𝗡𝗔 𝗕𝗢𝗧 👑 \n‎  └───── •✧• ─────┘\n𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝙵𝚄𝙻𝙻\n\n━━━━━━━━━━━━━━━━━━\n\n➛𝙱𝙾𝚃 𝙰𝙳𝙼𝙸𝙽: 𝙼𝙾𝙷𝙰𝙼𝙼𝙰𝙳 𝚁𝙰𝙽𝙰\n\n➛𝙵𝙱: https://www.facebook.com/XAICO.RANA\n\n➛𝚆𝙿: wa.me/+8801988686406\n\n➛𝚃𝙶: t.me/KING_RANA_404\n\n━━━━━━━━━━━━━━━━━━ ",
-			multiple1: "𝘆𝗼𝘂",
-			multiple2: "𝘆𝗼𝘂 𝗴𝘂𝘆𝘀",
-			defaultWelcomeMessage: `‎┏━━━━[𝗪𝗘𝗟𝗖𝗢𝗠𝗘]━━━━┓\n 𝙰𝚂𝚂𝙰𝙻𝙰𝙼𝚄𝚆𝙰𝙻𝙰𝙸𝙺𝚄𝙼 \𝚗‎┌───── •✧• ─────┐\n {userName}  \n‎└───── •✧• ─────┘ \n𝚆𝙴𝙻𝙻𝙲𝙾𝙼𝙴  \n𝚆𝙴𝙻𝙻𝙲𝙾𝙼𝙴  {multiple} 𝚃𝙾 𝚃𝙷𝙴 𝙲𝙷𝙰𝚃 𝙱𝙾𝚇: {boxName}\n𝙷𝙰𝚅𝙴 𝙰 𝙽𝙸𝙲𝙴  {session}♲︎︎︎ 😉\n┗━━━━[𝗥𝗔𝗡𝗔  𝗕𝗢𝗧]━━━━┛`
+			multiple1: "𝚈𝚘𝚞",
+			multiple2: "𝚈𝚘𝚞 𝙶𝚞𝚢𝚜",
+			defaultWelcomeMessage: `‎┏━━━━[𝗪𝗘𝗟𝗖𝗢𝗠𝗘]━━━━┓\n🕌 𝙰𝚂𝚂𝙰𝙻𝙰𝙼𝚄𝚆𝙰𝙻𝙰𝙸𝙺𝚄𝙼 🕌\𝚗‎┌───── •✧• ─────┐\n {userName}  \n‎└───── •✧• ─────┘ \n 💐 𝚆𝙴𝙻𝙻𝙲𝙾𝙼𝙴 💐\n 𝚆𝙴𝙻𝙻𝙲𝙾𝙼𝙴  {multiple} 𝚃𝙾 𝚃𝙷𝙴 𝙲𝙷𝙰𝚃 𝙱𝙾𝚇: {boxName}\n𝙷𝙰𝚅𝙴 𝙰 𝙽𝙸𝙲𝙴  {session}♲︎︎︎ 😉\n┗━━━━[𝗥𝗔𝗡𝗔  𝗕𝗢𝗧]━━━━┛`
 		}
 	},
  
