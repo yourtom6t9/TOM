@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/BtdKJaL.jpeg" alt="banner">
+<img src="https://i.imgur.com/g9oIBdq.jpeg" alt="banner">
 <h1 align="center"><img src="https://i.imgur.com/VzD9quR.jpeg" width="22px"> R4N4 BOT</h1
 
 
