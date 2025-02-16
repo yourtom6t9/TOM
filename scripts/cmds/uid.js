@@ -30,7 +30,7 @@ module.exports = {
 			syntaxError: "Vui lòng tag người muốn xem uid hoặc để trống để xem uid của bản thân"
 		},
 		en: {
-			syntaxError: "Please tag the person you want to view uid or leave it blank to view your own uid"
+			syntaxError: "𝘗𝘭𝘦𝘢𝘴𝘴𝘦 𝘛𝘢𝘨 𝘛𝘩𝘦 𝘗𝘦𝘳𝘴𝘰𝘯 𝘠𝘰𝘶 𝘞𝘢𝘯𝘵 𝘛𝘰 𝘝𝘪𝘦𝘸 𝘖𝘳 𝘓𝘦𝘢𝘷𝘦 𝘐𝘵 𝘉𝘭𝘢𝘯𝘬 𝘛𝘰 𝘝𝘪𝘦𝘸 𝘠𝘰𝘶𝘳 𝘖𝘸𝘯 𝘜𝘪𝘥 ๓๓"
 		}
 	},
 
