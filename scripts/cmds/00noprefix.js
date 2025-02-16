@@ -1,15 +1,15 @@
-const fs = require('fs');//please add music or video and move that all file inside scripts/cmdsnonprefix and replace that music name in the code or vdo if you want toset vdo just replace .mp3 with .mp4
+const fs = require('fs');
 
 module.exports = {
   config: {
-    name: "noprefix",
+    name: "noprefix2",
     version: "1.0",
-    author: "AceGun",
+    author: "RANA",//Dont Change My Credit 
     countDown: 5,
     role: 0,
-    shortDescription: "no prefix",
-    longDescription: "no prefix",
-    category: "no prefix",
+    shortDescription: "no prefix2",
+    longDescription: "no prefix2",
+    category: "no prefix2",
   },
 
   onStart: async function() {},
