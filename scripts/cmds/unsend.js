@@ -21,7 +21,7 @@ module.exports = {
 			syntaxError: "Vui lòng reply tin nhắn muốn gỡ của bot"
 		},
 		en: {
-			syntaxError: "Please reply the message you want to unsend"
+			syntaxError: "𝘗𝘭𝘦𝘢𝘴𝘴𝘦 𝘙𝘦𝘱𝘭𝘺 𝘛𝘩𝘦 𝘔𝘢𝘴𝘴𝘢𝘨𝘦 𝘠𝘰𝘶 𝘞𝘢𝘯𝘵 𝘛𝘰 𝘜𝘯𝘴𝘦𝘯𝘥 "
 		}
 	},
 
