@@ -37,7 +37,7 @@ module.exports = {
 			const videoData = videos[0];
 			const videoUrl = videoData.play;
 
-			const message = ` 🎵 𝗧𝗜𝗞𝗧𝗢𝗞\n\n𝗉𝗈𝗌𝗍 𝖻𝗈𝗒 ➪ ${videoData.author.nickname}\n𝖴𝗌𝖾𝗋𝖭𝖺𝗆𝖾 ➪ ${videoData.author.unique_id}`;
+			const message = ` 🎵 𝗧𝗜𝗞𝗧𝗢𝗞\n\n𝗣𝗼𝘀𝘁 𝗕𝗼𝘆 ➪ ${videoData.author.nickname}\n𝗨𝘀𝗲𝗿 𝗡𝗮𝗺𝗲 ➪ ${videoData.author.unique_id}`;
 			api.setMessageReaction("✅", event.messageID, () => {}, true);
 
 			const filePath = path.join(__dirname, `/cache/tiktok_video.mp4`);
