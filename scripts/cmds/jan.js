@@ -4,8 +4,8 @@ const obfuscatedAuthor = String.fromCharCode(65, 110, 116, 104, 111, 110, 121);
 
 module.exports = {
   config: {
-    name: "anyname",
-    aliases: ["as-you-wish", "anything"],
+    name: "jan",
+    aliases: ["janu", "jantah"],
     version: "1.0",
     author: "Anthony",
     countDown: 5,
