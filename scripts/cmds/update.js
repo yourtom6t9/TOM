@@ -47,7 +47,7 @@ module.exports = {
 			updateConfirmed: "🚀 | Confirmed, updating...",
 			updateComplete: "✅ | Update complete, do you want to restart the chatbot now (reply with \"yes\" or \"y\" to confirm)?",
 			updateTooFast: "⭕ Because the latest update was released %1 minutes %2 seconds ago, you can't update now. Please try again after %3 minutes %4 seconds to avoid errors.",
-			botWillRestart: "🔄 | The bot will restart now!"
+			botWillRestart: "🔄 | 𝘙𝘢𝘯𝘢 𝘉𝘰𝘵 𝘞𝘪𝘭𝘭 𝘙𝘦𝘴𝘵𝘢𝘳𝘵 𝘕𝘰𝘸 ! "
 		}
 	},
 
