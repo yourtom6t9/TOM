@@ -32,11 +32,11 @@ module.exports = {
 			error: "Đã xảy ra lỗi\n%1: %2"
 		},
 		en: {
-			initImage: "Initializing image, please wait...",
+			initImage: "𝘐𝘯𝘪𝘵𝘪𝘢𝘭𝘪𝘻𝘪𝘯𝘨 𝘠𝘰𝘶𝘳 𝘐𝘮𝘢𝘨𝘦, 𝘗𝘭𝘦𝘢𝘴𝘴𝘦 𝘞𝘢𝘪𝘵...⏳",
 			invalidCharacter: "Currently there are only %1 characters on the system, please enter a character id less than",
 			notFoundCharacter: "No character named %1 was found in the character list",
 			errorGetCharacter: "An error occurred while getting character data:\n%1: %2",
-			success: "✅ Your avatar\nCharacter: %1\nID: %2\nBackground text: %3\nSignature: %4\nColor: %5",
+			success: "✅ 𝘠𝘰𝘶𝘳 𝘈𝘷𝘢𝘵𝘢𝘳\n𝘊𝘩𝘢𝘳𝘢𝘤𝘵𝘦𝘳: %1\n𝘐𝘋: %2\n𝘉𝘢𝘤𝘬𝘨𝘳𝘰𝘶𝘯𝘥 𝘛𝘦𝘹𝘵: %3\n𝘚𝘪𝘨𝘯𝘢𝘵𝘶𝘳𝘦: %4\n𝘊𝘰𝘭𝘰𝘶𝘳: %5",
 			defaultColor: "default",
 			error: "An error occurred\n%1: %2"
 		}
