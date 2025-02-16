@@ -55,7 +55,7 @@ module.exports = {
 
       const msg = args.join(" ").trim();
       if (!msg) {
-        return api.sendMessage("Hello! I am Janvi Robot.\n\nHow can I assist you?", event.threadID, event.messageID);
+        return api.sendMessage("𝘏𝘦𝘭𝘭𝘰 𝘐𝘮 𝘙𝘈𝘕𝘈 𝘉𝘰𝘵.\n\n𝘏𝘰𝘸 𝘊𝘢𝘯 𝘐 𝘈𝘴𝘴𝘪𝘴𝘵 𝘠𝘰𝘶..? ", event.threadID, event.messageID);
       }
 
       if (args[0].toLowerCase() === "teach") {
@@ -69,13 +69,13 @@ module.exports = {
           await axios.get(`http://65.109.80.126:20409/teach?ask=${question}&ans=${answer}`);
 
           return api.sendMessage(
-            `📁 Teach added successfully...\n\n➠ Query: "${question}"\n\n➠ Response: "${answer}"`,
+            `📁 Teach added successfully in Rana bot...\n\n➠ Query: "${question}"\n\n➠ Response: "${answer}"`,
             event.threadID,
             event.messageID
           );
         } else {
           return api.sendMessage(
-            "📚 Example:\n\n.janvi teach [Query] - [Response]\nTry it!",
+            "📚 Example:\n\n.rana teach [Query] - [Response]\nTry it!",
             event.threadID,
             event.messageID
           );
