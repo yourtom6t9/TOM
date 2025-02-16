@@ -34,11 +34,11 @@ module.exports = {
 			noAdmin: "Hiện tại bot chưa có admin nào"
 		},
 		en: {
-			missingMessage: "Please enter the message you want to send to admin",
+			missingMessage: "📛 𝘗𝘭𝘦𝘢𝘴𝘴𝘦 𝘌𝘯𝘵𝘦𝘳 𝘛𝘩𝘦 𝘔𝘢𝘴𝘴𝘢𝘨𝘦 𝘠𝘰𝘶 𝘞𝘢𝘯𝘵 𝘛𝘰 𝘚𝘦𝘯𝘥 𝘈𝘥𝘮𝘪𝘯 ",
 			sendByGroup: "\n- Sent from group: %1\n- Thread ID: %2",
 			sendByUser: "\n- Sent from user",
 			content: "\n\nContent:\n─────────────────\n%1\n─────────────────\nReply this message to send message to user",
-			success: "Sent your message to %1 admin successfully!\n%2",
+			success: "𝘚𝘦𝘯𝘵 𝘠𝘰𝘶𝘳 𝘔𝘢𝘴𝘴𝘢𝘨𝘦 𝘛𝘰 %1 𝘈𝘥𝘮𝘪𝘯 𝘚𝘶𝘤𝘤𝘦𝘴𝘧𝘶𝘭𝘭𝘺! ✅\n%2",
 			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
 			reply: "📍 Reply from admin %1:\n─────────────────\n%2\n─────────────────\nReply this message to continue send message to admin",
 			replySuccess: "Sent your reply to admin successfully!",
@@ -56,9 +56,9 @@ module.exports = {
 		if (config.adminBot.length == 0)
 			return message.reply(getLang("noAdmin"));
 		const senderName = await usersData.getName(senderID);
-		const msg = "==📨️ CALL ADMIN 📨️=="
-			+ `\n- User Name: ${senderName}`
-			+ `\n- User ID: ${senderID}`
+		const msg = "==📨️ 𝘊𝘈𝘓𝘓 𝘈𝘋𝘔𝘐𝘕 📨️=="
+			+ `\n- 𝚄𝚜𝚎𝚛 𝙽𝚊𝚖𝚎: ${senderName}`
+			+ `\n- 𝚄𝚜𝚎𝚛 𝙸𝚍: ${senderID}`
 			+ (isGroup ? getLang("sendByGroup", (await threadsData.get(threadID)).threadName, threadID) : getLang("sendByUser"));
 
 		const formMessage = {
