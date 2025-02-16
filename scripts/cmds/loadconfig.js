@@ -21,7 +21,7 @@ module.exports = {
 			success: "Config đã được load lại thành công"
 		},
 		en: {
-			success: "Config has been reloaded successfully"
+			success: "📍 𝘊𝘰𝘯𝘧𝘪𝘨 𝘏𝘢𝘴 𝘉𝘦𝘦𝘯 𝘙𝘦𝘭𝘰𝘢𝘥𝘦𝘥 𝘚𝘶𝘤𝘤𝘦𝘴𝘧𝘶𝘭𝘭𝘺 ✅"
 		}
 	},
 
