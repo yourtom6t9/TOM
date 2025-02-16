@@ -44,7 +44,7 @@ case "👍":
           await api.setMessageReaction("👊", event.messageID, event.threadID, api);
           case "hi":
           message.reply({
-            body: "‎‎__〲Assala-Mualaikum""-🥀🖤 ",
+            body: "‎‎__〲Assala-Mualaikum-🥀🖤 ",
             
           });
           await api.setMessageReaction("💐", event.messageID, event.threadID, api);
